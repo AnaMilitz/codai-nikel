@@ -1,0 +1,133 @@
+#login {
+    background: linear-gradient(120deg, #4c79d3 44.9%, #ffffff 45%) no-repeat fixed;
+}
+
+#app {
+    background: linear-gradient(120deg, #ffffff 44.9%, #4c79d3 45%) no-repeat fixed;
+}
+
+.primary-color {
+    color: #4c79d3;
+}
+
+:root {
+    --color-primary: #4c79d3;
+    --color-secundary: #4e0070;
+}
+
+header {
+    border-bottom: #bebcbc solid;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.botao-currency, .botao-home {
+    color: var(--color-secundary);
+    padding: 7px;
+}
+
+.botao-dropdown {
+    color: var(--color-secundary);
+}
+
+.bi-cash-coin, .bi-currency-exchange-icon {
+    color: var(--color-secundary);
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.bi-currency-exchange-header {
+    color: var(--color-secundary);
+    vertical-align: middle;
+}
+
+
+.info-card {
+    background-color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+.text-login {
+    color: #ffffff;
+    size: 18px;
+    font-weight:450;
+}
+
+.coins {
+    position: absolute;
+    bottom: 100px;
+}
+
+.button-login {
+    background-color:#4e0070;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 25%;
+    width: 50%;
+    
+}
+
+.button-default {
+    background-color:#4e0070;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.button-cancel {
+    border-radius: 15px;
+    background-color: #e4e4e4;
+}
+
+.button-float {
+    border-radius: 100%;
+    background-color: #4e0070;
+    color: #ffffff;
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #4e0070;
+    font-size: 35px;
+    padding: 0 !important;
+    bottom: 1rem;
+    right: 2rem;
+}
+
+.button-float:hover {
+    background-color: #ffffff;
+    color: #4c79d3;
+    border: 2px solid #4c79d3;
+}
+
+.button-login:hover, .button-default:hover {
+    background-color: #4c79d3;
+    color: #ffffff;
+}
+
+.link-default {
+    color: #4e0070;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.link-default:hover {
+    color: #4c79d3;
+}
+
+.form-text {
+    color: rgb(87, 87, 87);
+}
+
+.form-check-label {
+    color: black;
+}
+
+.logout {
+    min-width: 2rem;
+}
+
+.menu {
+    margin-right: 20px;
+}
+
